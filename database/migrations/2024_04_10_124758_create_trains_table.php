@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('company');
             $table->string('departure_station');
             $table->string('arrival_station');
+            $table->date('departure_date');
             $table->time('departure_time');
             $table->time('arrival_time');
             $table->string('train_code');

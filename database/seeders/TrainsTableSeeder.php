@@ -22,6 +22,7 @@ class TrainsTableSeeder extends Seeder
             $newTrain->company = $faker->company;
             $newTrain->departure_station = $faker->city;
             $newTrain->arrival_station = $faker->city;
+            $newTrain->departure_date = '2024-04-10';
             $newTrain->departure_time = $faker->time;
             $newTrain->arrival_time = $faker->time;
             $newTrain->train_code = $faker->unique()->bothify('Train-####');
